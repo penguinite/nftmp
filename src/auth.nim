@@ -5,7 +5,7 @@ import bcrypt, hmac
 proc devRandomSalt(length = 128): string =
   result = ""
   for i in urandom(length):
-    if i >= 32 and i <= 126:
+    if ord(i) >= 32 and ord(i) <= 126:
       result.add(char(i))
   return result
 
