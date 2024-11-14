@@ -2,6 +2,8 @@
 
 NimForum is a light-weight forum implementation with many similarities to Discourse. It is implemented in the [Nim](https://nim-lang.org) programming language and uses SQLite for its database.
 
+Lorem ipsum dolor sit amet
+
 ## Examples in the wild
 
 [![forum.nim-lang.org](https://i.imgur.com/hdIF5Az.png)](https://forum.nim-lang.org)
